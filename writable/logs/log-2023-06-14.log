@@ -1,0 +1,68 @@
+CRITICAL - 2023-06-14 10:40:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\RecruiterC.php on line 32.
+ 1 APPPATH\Controllers\RecruiterC.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\RecruiterC.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->YourJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:40:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\RecruiterC.php on line 16.
+ 1 APPPATH\Controllers\RecruiterC.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\RecruiterC.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:40:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\Recruiters\Postjob.php on line 64.
+ 1 APPPATH\Views\Recruiters\Postjob.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Recruiters\\Postjob.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\Postjob.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Postjob', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(27): view('Recruiters/Postjob')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->jobpost()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:40:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\Recruiters\Postjob.php on line 64.
+ 1 APPPATH\Views\Recruiters\Postjob.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Recruiters\\Postjob.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\Postjob.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Postjob', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(27): view('Recruiters/Postjob')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->jobpost()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:40:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\RecruiterC.php on line 16.
+ 1 APPPATH\Controllers\RecruiterC.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\RecruiterC.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 10:40:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\Recruiters\Postjob.php on line 64.
+ 1 APPPATH\Views\Recruiters\Postjob.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Recruiters\\Postjob.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\Postjob.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Postjob', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(27): view('Recruiters/Postjob')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->jobpost()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:11:27 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\RecruiterC.php on line 54.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\RecruiterC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RecruiterC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RecruiterC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\RecruiterC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 11:18:46 --> syntax error, unexpected token "*", expecting end of file
+in APPPATH\Config\Routes.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

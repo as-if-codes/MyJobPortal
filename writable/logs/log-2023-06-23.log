@@ -1,0 +1,1546 @@
+CRITICAL - 2023-06-23 10:36:58 --> Undefined variable $topRecruiters
+in APPPATH\Views\Admin\Dashboard.php on line 74.
+ 1 APPPATH\Views\Admin\Dashboard.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topRecruiters', 'APPPATH\\Views\\Admin\\Dashboard.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(107): view('Admin/Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 11:29:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ApplicantC.php on line 16.
+ 1 APPPATH\Controllers\ApplicantC.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\ApplicantC.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 11:31:58 --> Unmatched '}'
+in APPPATH\Controllers\AdminC.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdminC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:40:31 --> Invalid file: job_list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('job_list.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('job_list', [], true)
+ 3 APPPATH\Controllers\AdminC.php(50): view('job_list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:41:36 --> Invalid file: job_list.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('job_list.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('job_list', [], true)
+ 3 APPPATH\Controllers\AdminC.php(50): view('job_list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:44:50 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 50.
+ 1 APPPATH\Views\Admin\job_list.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(50): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:45:54 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 50.
+ 1 APPPATH\Views\Admin\job_list.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:48:24 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 52.
+ 1 APPPATH\Views\Admin\job_list.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(50): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:48:48 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 52.
+ 1 APPPATH\Views\Admin\job_list.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(50): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:51:24 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 7.
+ 1 APPPATH\Views\Admin\job_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(50): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:52:43 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 7.
+ 1 APPPATH\Views\Admin\job_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:52:45 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 7.
+ 1 APPPATH\Views\Admin\job_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:52:45 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 7.
+ 1 APPPATH\Views\Admin\job_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:52:46 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 7.
+ 1 APPPATH\Views\Admin\job_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:52:46 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 7.
+ 1 APPPATH\Views\Admin\job_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:52:52 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 7.
+ 1 APPPATH\Views\Admin\job_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:54:07 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 3.
+ 1 APPPATH\Views\Admin\job_list.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:54:08 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 3.
+ 1 APPPATH\Views\Admin\job_list.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:54:46 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 5.
+ 1 APPPATH\Views\Admin\job_list.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:54:47 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 5.
+ 1 APPPATH\Views\Admin\job_list.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(51): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:46 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:47 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:48 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:48 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:49 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:49 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:49 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:49 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:49 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:49 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:50 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:56:57 --> Undefined array key "admin"
+in APPPATH\Controllers\AdminC.php on line 52.
+ 1 APPPATH\Controllers\AdminC.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Controllers\\AdminC.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:57:37 --> Undefined variable $admin
+in APPPATH\Controllers\AdminC.php on line 53.
+ 1 APPPATH\Controllers\AdminC.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'APPPATH\\Controllers\\AdminC.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:57:38 --> Undefined variable $admin
+in APPPATH\Controllers\AdminC.php on line 53.
+ 1 APPPATH\Controllers\AdminC.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'APPPATH\\Controllers\\AdminC.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:57:39 --> Undefined variable $admin
+in APPPATH\Controllers\AdminC.php on line 53.
+ 1 APPPATH\Controllers\AdminC.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'APPPATH\\Controllers\\AdminC.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:57:40 --> Undefined variable $admin
+in APPPATH\Controllers\AdminC.php on line 53.
+ 1 APPPATH\Controllers\AdminC.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'APPPATH\\Controllers\\AdminC.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:59:13 --> Undefined array key "title"
+in APPPATH\Views\Admin\job_list.php on line 65.
+ 1 APPPATH\Views\Admin\job_list.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\Admin\\job_list.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(56): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 10:59:36 --> Undefined array key "id"
+in APPPATH\Views\Admin\job_list.php on line 69.
+ 1 APPPATH\Views\Admin\job_list.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Admin\\job_list.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(56): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 12:59:03 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 5.
+ 1 APPPATH\Views\Admin\job_list.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(69): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 12:59:09 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 5.
+ 1 APPPATH\Views\Admin\job_list.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(69): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 12:59:10 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 5.
+ 1 APPPATH\Views\Admin\job_list.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(69): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 12:50:45 --> view(): Argument #3 ($options) must be of type array, null given, called in C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php on line 75
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\AdminC.php(75): view('Admin/job_list', [...], null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 12:52:12 --> Undefined variable $jobs
+in APPPATH\Views\Admin\job_list.php on line 105.
+ 1 APPPATH\Views\Admin\job_list.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'APPPATH\\Views\\Admin\\job_list.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(75): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 12:55:34 --> Undefined variable $jobs
+in APPPATH\Views\Admin\job_list.php on line 105.
+ 1 APPPATH\Views\Admin\job_list.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'APPPATH\\Views\\Admin\\job_list.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(75): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 12:55:35 --> Undefined variable $jobs
+in APPPATH\Views\Admin\job_list.php on line 105.
+ 1 APPPATH\Views\Admin\job_list.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'APPPATH\\Views\\Admin\\job_list.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(75): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 12:55:54 --> Undefined variable $jobs
+in APPPATH\Views\Admin\job_list.php on line 105.
+ 1 APPPATH\Views\Admin\job_list.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'APPPATH\\Views\\Admin\\job_list.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(75): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 12:56:00 --> Undefined variable $jobs
+in APPPATH\Views\Admin\job_list.php on line 105.
+ 1 APPPATH\Views\Admin\job_list.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'APPPATH\\Views\\Admin\\job_list.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(75): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 13:07:31 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(84): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:07:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(84): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:07:57 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(84): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:08:06 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(84): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:09:54 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:09:58 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:10:19 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:10:26 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:10:38 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:10:43 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:10:54 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:11:21 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:11:25 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:11:29 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:11:33 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:11:46 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:11:50 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(83): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:13:36 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(85): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:13:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(85): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:13:44 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(85): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:20:09 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(86): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:20:12 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(86): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:20:17 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(86): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:21:57 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(86): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:22:15 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(86): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:22:20 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(86): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:24:42 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(86): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-23 13:27:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 97.
+ 1 APPPATH\Views\Admin\Settingz.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:28:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 97.
+ 1 APPPATH\Views\Admin\Settingz.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:28:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 97.
+ 1 APPPATH\Views\Admin\Settingz.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:28:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 97.
+ 1 APPPATH\Views\Admin\Settingz.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:28:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 97.
+ 1 APPPATH\Views\Admin\Settingz.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:28:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 97.
+ 1 APPPATH\Views\Admin\Settingz.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:28:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 97.
+ 1 APPPATH\Views\Admin\Settingz.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:28:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 97.
+ 1 APPPATH\Views\Admin\Settingz.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:28:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 97.
+ 1 APPPATH\Views\Admin\Settingz.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:30:35 --> Undefined array key "name"
+in APPPATH\Views\Admin\Settingz.php on line 101.
+ 1 APPPATH\Views\Admin\Settingz.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\Admin\\Settingz.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:30:35 --> Undefined array key "name"
+in APPPATH\Views\Admin\Settingz.php on line 101.
+ 1 APPPATH\Views\Admin\Settingz.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\Admin\\Settingz.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:30:36 --> Undefined array key "name"
+in APPPATH\Views\Admin\Settingz.php on line 101.
+ 1 APPPATH\Views\Admin\Settingz.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\Admin\\Settingz.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:33:10 --> Undefined array key "gender"
+in APPPATH\Views\Admin\Settingz.php on line 107.
+ 1 APPPATH\Views\Admin\Settingz.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gender"', 'APPPATH\\Views\\Admin\\Settingz.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:33:30 --> Undefined array key "address"
+in APPPATH\Views\Admin\Settingz.php on line 109.
+ 1 APPPATH\Views\Admin\Settingz.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'APPPATH\\Views\\Admin\\Settingz.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(80): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:42:11 --> Undefined array key "address"
+in APPPATH\Controllers\AdminC.php on line 91.
+ 1 APPPATH\Controllers\AdminC.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'APPPATH\\Controllers\\AdminC.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->updateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:42:33 --> Undefined array key "address"
+in APPPATH\Controllers\AdminC.php on line 91.
+ 1 APPPATH\Controllers\AdminC.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'APPPATH\\Controllers\\AdminC.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->updateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:42:37 --> Undefined array key "address"
+in APPPATH\Controllers\AdminC.php on line 91.
+ 1 APPPATH\Controllers\AdminC.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'APPPATH\\Controllers\\AdminC.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->updateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:48:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\Applicants\Settingz.php on line 98.
+ 1 APPPATH\Views\Applicants\Settingz.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Applicants\\Settingz.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(181): view('Applicants/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->changePassword()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 12:49:30 --> mysqli_sql_exception: Unknown column 'admin' in 'where clause' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `admin` ...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `admin` ...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `admin` ...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `admin` ...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(170): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->changePassword()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 12:49:57 --> mysqli_sql_exception: Unknown column 'admin' in 'where clause' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `admin` ...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `admin` ...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `admin` ...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `admin` ...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(170): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->changePassword()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 12:51:16 --> mysqli_sql_exception: Unknown column 'admin' in 'where clause' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `admin` ...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `admin` ...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `admin` ...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `admin` ...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(170): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->changePassword()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-23 13:03:15 --> Invalid file: report.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('report.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('report.php', [], true)
+ 3 APPPATH\Controllers\AdminC.php(185): view('report.php')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:03:38 --> Undefined array key "admin"
+in APPPATH\Views\Admin\report.php on line 5.
+ 1 APPPATH\Views\Admin\report.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\report.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/report.php', [], true)
+ 5 APPPATH\Controllers\AdminC.php(185): view('Admin/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:04:07 --> Undefined array key "admin"
+in APPPATH\Views\Admin\report.php on line 5.
+ 1 APPPATH\Views\Admin\report.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\report.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/report.php', [], true)
+ 5 APPPATH\Controllers\AdminC.php(185): view('Admin/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:04:15 --> Undefined array key "current_password"
+in APPPATH\Controllers\AdminC.php on line 148.
+ 1 APPPATH\Controllers\AdminC.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "current_password"', 'APPPATH\\Controllers\\AdminC.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->changePassword()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:06:06 --> Undefined array key "admin"
+in APPPATH\Views\Admin\report.php on line 5.
+ 1 APPPATH\Views\Admin\report.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\report.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/report.php', [], true)
+ 5 APPPATH\Controllers\AdminC.php(185): view('Admin/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:06:38 --> Undefined array key "admin"
+in APPPATH\Views\Admin\report.php on line 4.
+ 1 APPPATH\Views\Admin\report.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\report.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/report.php', [], true)
+ 5 APPPATH\Controllers\AdminC.php(185): view('Admin/report.php')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 13:13:12 --> mysqli_sql_exception: Table 'myjobportal.applications' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(189): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 13:13:12 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\AdminC.php on line 195.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 12:55:13 --> mysqli_sql_exception: Table 'myjobportal.your_table_name' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n     SELECT M...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n     SELECT M...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n     SELECT M...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(189): CodeIgniter\Database\BaseConnection->query('\r\n     SELECT M...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 12:55:13 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\AdminC.php on line 199.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 12:56:10 --> mysqli_sql_exception: Table 'myjobportal.your_table_name' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n     SELECT M...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n     SELECT M...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n     SELECT M...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(189): CodeIgniter\Database\BaseConnection->query('\r\n     SELECT M...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 12:56:10 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\AdminC.php on line 199.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 12:56:25 --> mysqli_sql_exception: Query was empty in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n      \r\n\r\n   ...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n      \r\n\r\n   ...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n      \r\n\r\n   ...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(189): CodeIgniter\Database\BaseConnection->query('\r\n      \r\n\r\n   ...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 12:56:25 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\AdminC.php on line 194.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:01:12 --> Undefined variable $jobPostings
+in APPPATH\Controllers\AdminC.php on line 216.
+ 1 APPPATH\Controllers\AdminC.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobPostings', 'APPPATH\\Controllers\\AdminC.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:02:02 --> Undefined variable $jobPostings
+in APPPATH\Controllers\AdminC.php on line 216.
+ 1 APPPATH\Controllers\AdminC.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobPostings', 'APPPATH\\Controllers\\AdminC.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:02:10 --> Undefined variable $jobPostings
+in APPPATH\Controllers\AdminC.php on line 214.
+ 1 APPPATH\Controllers\AdminC.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobPostings', 'APPPATH\\Controllers\\AdminC.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:03:00 --> Undefined variable $jobPostings
+in APPPATH\Controllers\AdminC.php on line 214.
+ 1 APPPATH\Controllers\AdminC.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobPostings', 'APPPATH\\Controllers\\AdminC.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:04:21 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\AdminC.php on line 188.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdminC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:04:48 --> syntax error, unexpected token "catch"
+in APPPATH\Controllers\AdminC.php on line 225.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdminC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:04:49 --> syntax error, unexpected token "catch"
+in APPPATH\Controllers\AdminC.php on line 225.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdminC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:05:15 --> Call to undefined method App\Controllers\AdminC::select()
+in APPPATH\Controllers\AdminC.php on line 188.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:06:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Controllers\AdminC.php on line 190.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:06:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Controllers\AdminC.php on line 190.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:06:33 --> Call to undefined method App\Controllers\AdminC::select()
+in APPPATH\Controllers\AdminC.php on line 188.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:06:35 --> Call to undefined method App\Controllers\AdminC::select()
+in APPPATH\Controllers\AdminC.php on line 188.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:08:18 --> syntax error, unexpected variable "$currentMonth", expecting ";" or "{"
+in APPPATH\Controllers\AdminC.php on line 185.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdminC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:09:15 --> syntax error, unexpected token "catch", expecting "function" or "const"
+in APPPATH\Controllers\AdminC.php on line 213.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdminC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:09:17 --> syntax error, unexpected token "catch", expecting "function" or "const"
+in APPPATH\Controllers\AdminC.php on line 213.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdminC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:09:32 --> syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Controllers\AdminC.php on line 215.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdminC.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminC')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminC')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminC', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:09:54 --> Undefined property: App\Controllers\AdminC::$db
+in APPPATH\Controllers\AdminC.php on line 188.
+ 1 APPPATH\Controllers\AdminC.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminC::$db', 'APPPATH\\Controllers\\AdminC.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:10:45 --> Undefined property: App\Controllers\AdminC::$db
+in APPPATH\Controllers\AdminC.php on line 189.
+ 1 APPPATH\Controllers\AdminC.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminC::$db', 'APPPATH\\Controllers\\AdminC.php', 189)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 13:12:40 --> mysqli_sql_exception: Table 'myjobportal.your_table_name' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTHNAM...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTHNAM...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTHNAM...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(189): CodeIgniter\Database\BaseConnection->query('SELECT MONTHNAM...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 13:12:40 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\AdminC.php on line 192.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 13:14:46 --> mysqli_sql_exception: Table 'myjobportal.your_table_name' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTHNAM...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTHNAM...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTHNAM...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(189): CodeIgniter\Database\BaseConnection->query('SELECT MONTHNAM...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-06-23 13:15:10 --> mysqli_sql_exception: Table 'myjobportal.your_table_name' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTHNAM...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTHNAM...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTHNAM...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(189): CodeIgniter\Database\BaseConnection->query('SELECT MONTHNAM...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-06-23 13:15:10 --> mysqli_sql_exception: Unknown column 'r.recruiter_name' in 'field list' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT r.recrui...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r.recrui...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r.recrui...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(206): CodeIgniter\Database\BaseConnection->query('SELECT r.recrui...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 13:15:10 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\AdminC.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 13:16:27 --> mysqli_sql_exception: Table 'myjobportal.your_table_name' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTHNAM...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTHNAM...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTHNAM...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(189): CodeIgniter\Database\BaseConnection->query('SELECT MONTHNAM...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 13:16:27 --> Call to a member function getResult() on array
+in APPPATH\Controllers\AdminC.php on line 206.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->generateJobPostingsReport()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 12:58:24 --> mysqli_sql_exception: Table 'myjobportal.applications' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n             ...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n             ...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n             ...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(186): CodeIgniter\Database\BaseConnection->query('\r\n             ...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 12:58:24 --> Undefined variable $report
+in APPPATH\Views\Admin\report.php on line 80.
+ 1 APPPATH\Views\Admin\report.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report', 'APPPATH\\Views\\Admin\\report.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/report', [], true)
+ 5 APPPATH\Controllers\AdminC.php(195): view('Admin/report')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 12:59:18 --> mysqli_sql_exception: Table 'myjobportal.applications' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(186): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 12:59:18 --> Undefined variable $report
+in APPPATH\Views\Admin\report.php on line 80.
+ 1 APPPATH\Views\Admin\report.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report', 'APPPATH\\Views\\Admin\\report.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/report', [], true)
+ 5 APPPATH\Controllers\AdminC.php(194): view('Admin/report')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 12:59:34 --> mysqli_sql_exception: Table 'myjobportal.applications' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(186): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 12:59:34 --> Undefined variable $report
+in APPPATH\Views\Admin\report.php on line 80.
+ 1 APPPATH\Views\Admin\report.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report', 'APPPATH\\Views\\Admin\\report.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/report', [], true)
+ 5 APPPATH\Controllers\AdminC.php(194): view('Admin/report')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 13:00:32 --> mysqli_sql_exception: Table 'myjobportal.applications' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(186): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 13:00:32 --> Undefined variable $report
+in APPPATH\Views\Admin\report.php on line 80.
+ 1 APPPATH\Views\Admin\report.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report', 'APPPATH\\Views\\Admin\\report.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/report', [], true)
+ 5 APPPATH\Controllers\AdminC.php(194): view('Admin/report')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 13:01:51 --> mysqli_sql_exception: Table 'myjobportal.applications' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(186): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-06-23 13:01:56 --> mysqli_sql_exception: Table 'myjobportal.applications' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(186): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-06-23 13:04:10 --> mysqli_sql_exception: Unknown column 'application_date' in 'field list' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(186): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-06-23 13:13:58 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(201): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->ReportsG()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-23 12:52:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 99.
+ 1 APPPATH\Views\Admin\Settingz.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(79): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 13:14:36 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(125): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-23 13:30:48 --> Call to undefined function App\Controllers\clearDirectory()
+in APPPATH\Controllers\Home.php on line 156.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->clearCache()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:32:48 --> Call to undefined function App\Controllers\clearDirectory()
+in APPPATH\Controllers\Home.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->clearCache()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:32:51 --> Call to undefined function App\Controllers\clearDirectory()
+in APPPATH\Controllers\Home.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->clearCache()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 13:34:20 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 165.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-23 13:35:19 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'myjobportal', 3306, '', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MyJobPortal\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\MyJobPortal\app\Controllers\Home.php(93): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+#8 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MyJobPortal\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MyJobPortal\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\MyJobPortal\app\Controllers\Home.php(93): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-23 13:35:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Home.php(93): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

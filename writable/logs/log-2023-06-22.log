@@ -1,0 +1,905 @@
+CRITICAL - 2023-06-22 07:47:45 --> Undefined property: stdClass::$about
+in APPPATH\Views\Applicants\jobView.php on line 68.
+ 1 APPPATH\Views\Applicants\jobView.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$about', 'APPPATH\\Views\\Applicants\\jobView.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\jobView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/jobView', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(94): view('Applicants/jobView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->applyJob('1005')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:49:35 --> Undefined property: stdClass::$about
+in APPPATH\Views\Applicants\jobView.php on line 68.
+ 1 APPPATH\Views\Applicants\jobView.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$about', 'APPPATH\\Views\\Applicants\\jobView.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\jobView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/jobView', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(94): view('Applicants/jobView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->applyJob('1005')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:49:55 --> Undefined property: stdClass::$about
+in APPPATH\Views\Applicants\jobView.php on line 56.
+ 1 APPPATH\Views\Applicants\jobView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$about', 'APPPATH\\Views\\Applicants\\jobView.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\jobView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/jobView', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(94): view('Applicants/jobView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->applyJob('1005')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:51:59 --> Undefined property: stdClass::$about
+in APPPATH\Views\Applicants\jobView.php on line 56.
+ 1 APPPATH\Views\Applicants\jobView.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$about', 'APPPATH\\Views\\Applicants\\jobView.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\jobView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/jobView', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(94): view('Applicants/jobView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->applyJob('1005')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 08:37:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'job_post.position LIKE '%j%'
+        OR job_post.company_name LIKE '%j%'
+  ...' at line 16 in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(124): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-22 08:37:42 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\ApplicantC.php on line 126.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 08:38:07 --> mysqli_sql_exception: Unknown column 'job_post.company_name' in 'where clause' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(123): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-22 08:38:07 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\ApplicantC.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 08:40:13 --> mysqli_sql_exception: Unknown column 'job_post.company_name' in 'where clause' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n    SELECT\r\n ...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT\r\n ...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT\r\n ...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(124): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT\r\n ...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-22 08:40:13 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\ApplicantC.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 08:40:35 --> mysqli_sql_exception: Unknown column 'job_post.company_name' in 'where clause' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n    SELECT\r\n ...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT\r\n ...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT\r\n ...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(124): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT\r\n ...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-22 08:40:35 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\ApplicantC.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 08:40:45 --> mysqli_sql_exception: Unknown column 'job_post.company_name' in 'where clause' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n    SELECT\r\n ...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT\r\n ...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT\r\n ...')
+#3 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(124): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT\r\n ...')
+#4 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-22 08:40:45 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\ApplicantC.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:50:29 --> Undefined array key "applicant"
+in APPPATH\Views\Applicants\Settingz.php on line 15.
+ 1 APPPATH\Views\Applicants\Settingz.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "applicant"', 'APPPATH\\Views\\Applicants\\Settingz.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/Settingz', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(200): view('Applicants/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->AccountSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:50:30 --> Undefined array key "applicant"
+in APPPATH\Views\Applicants\Settingz.php on line 15.
+ 1 APPPATH\Views\Applicants\Settingz.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "applicant"', 'APPPATH\\Views\\Applicants\\Settingz.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/Settingz', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(200): view('Applicants/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->AccountSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:50:32 --> Undefined array key "applicant"
+in APPPATH\Views\Applicants\Settingz.php on line 15.
+ 1 APPPATH\Views\Applicants\Settingz.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "applicant"', 'APPPATH\\Views\\Applicants\\Settingz.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/Settingz', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(200): view('Applicants/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->AccountSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:50:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ApplicantC.php on line 147.
+ 1 APPPATH\Controllers\ApplicantC.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\ApplicantC.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->yourApplications()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:50:34 --> Undefined array key "applicant"
+in APPPATH\Views\Applicants\SearchResults.php on line 15.
+ 1 APPPATH\Views\Applicants\SearchResults.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "applicant"', 'APPPATH\\Views\\Applicants\\SearchResults.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\SearchResults.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/SearchResults', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(183): view('Applicants/SearchResults', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->searchJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:50:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ApplicantC.php on line 16.
+ 1 APPPATH\Controllers\ApplicantC.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\ApplicantC.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:50:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ApplicantC.php on line 147.
+ 1 APPPATH\Controllers\ApplicantC.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\ApplicantC.php', 147)
+ 2 APPPATH\Controllers\ApplicantC.php(196): App\Controllers\ApplicantC->yourApplications()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->deleteApplication()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 08:55:20 --> Undefined property: stdClass::$position
+in APPPATH\Views\Applicants\yourApplications.php on line 73.
+ 1 APPPATH\Views\Applicants\yourApplications.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$position', 'APPPATH\\Views\\Applicants\\yourApplications.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\yourApplications.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/yourApplications', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(154): view('Applicants/yourApplications', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->yourApplications()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 09:07:36 --> Attempt to read property "name" on array
+in APPPATH\Views\Applicants\Settingz.php on line 113.
+ 1 APPPATH\Views\Applicants\Settingz.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'APPPATH\\Views\\Applicants\\Settingz.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/Settingz', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(201): view('Applicants/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->AccountSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 09:43:52 --> mysqli_sql_exception: Table 'myjobportal.account' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `account...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `account...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `account...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `account...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(105): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 09:44:19 --> mysqli_sql_exception: Table 'myjobportal.account' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `account...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `account...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `account...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `account...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(105): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 09:47:44 --> mysqli_sql_exception: Table 'myjobportal.account' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `account...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `account...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `account...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `account...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(105): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 09:56:58 --> mysqli_sql_exception: Table 'myjobportal.account' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `account...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `account...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `account...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `account...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(105): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 09:56:59 --> mysqli_sql_exception: Table 'myjobportal.account' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `account...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `account...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `account...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `account...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(105): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 09:58:05 --> mysqli_sql_exception: Table 'myjobportal.account' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `account...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `account...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `account...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `account...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(105): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 09:58:16 --> mysqli_sql_exception: Table 'myjobportal.account' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `account...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `account...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `account...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `account...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(105): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 09:58:34 --> mysqli_sql_exception: Table 'myjobportal.account' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `account...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `account...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `account...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `account...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\ApplicantC.php(105): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 10:01:49 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\ApplicantC.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:02:15 --> Call to undefined method App\Models\Applicant::updateProfile
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\ApplicantC.php(104): CodeIgniter\Model->__call('updateProfile', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:03:59 --> Class "App\Controllers\DB" not found
+in APPPATH\Controllers\ApplicantC.php on line 104.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:04:12 --> Class "App\Controllers\DB" not found
+in APPPATH\Controllers\ApplicantC.php on line 104.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:04:44 --> Class "App\Controllers\DB" not found
+in APPPATH\Controllers\ApplicantC.php on line 104.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 10:16:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1006', '1006')
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 10:16:59 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\RecruiterC.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1006', '1006')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:25:52 --> Undefined variable $application
+in APPPATH\Views\Recruiters\ApplicationView.php on line 90.
+ 1 APPPATH\Views\Recruiters\ApplicationView.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $application', 'APPPATH\\Views\\Recruiters\\ApplicationView.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\ApplicationView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/ApplicationView', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(75): view('Recruiters/ApplicationView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1006', '1006')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 10:30:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 10:30:34 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\RecruiterC.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 10:34:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 10:34:22 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\RecruiterC.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 10:38:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 10:38:45 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\RecruiterC.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:40:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\RecruiterC.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:40:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\RecruiterC.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:40:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\RecruiterC.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1006', '1006')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:43:04 --> Undefined variable $data
+in APPPATH\Views\Recruiters\ApplicationView.php on line 82.
+ 1 APPPATH\Views\Recruiters\ApplicationView.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Recruiters\\ApplicationView.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\ApplicationView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/ApplicationView', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(79): view('Recruiters/ApplicationView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:44:52 --> Undefined variable $data
+in APPPATH\Views\Recruiters\ApplicationView.php on line 82.
+ 1 APPPATH\Views\Recruiters\ApplicationView.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Recruiters\\ApplicationView.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\ApplicationView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/ApplicationView', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(79): view('Recruiters/ApplicationView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:50:48 --> Class "DB" not found
+in APPPATH\Views\Recruiters\YourJobs.php on line 90.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/YourJobs', [], true)
+ 4 APPPATH\Controllers\RecruiterC.php(43): view('Recruiters/YourJobs', [...])
+ 5 APPPATH\Controllers\RecruiterC.php(80): App\Controllers\RecruiterC->YourJobs()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:51:52 --> Class "Illuminate\Support\Facades\DB" not found
+in APPPATH\Views\Recruiters\YourJobs.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/YourJobs', [], true)
+ 4 APPPATH\Controllers\RecruiterC.php(43): view('Recruiters/YourJobs', [...])
+ 5 APPPATH\Controllers\RecruiterC.php(80): App\Controllers\RecruiterC->YourJobs()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:55:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::count()
+in APPPATH\Controllers\RecruiterC.php on line 47.
+ 1 APPPATH\Controllers\RecruiterC.php(87): App\Controllers\RecruiterC->YourJobs()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:04:04 --> Unmatched ')'
+in APPPATH\Views\Recruiters\YourJobs.php on line 90.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/YourJobs', [], true)
+ 3 APPPATH\Controllers\RecruiterC.php(46): view('Recruiters/YourJobs', [...])
+ 4 APPPATH\Controllers\RecruiterC.php(82): App\Controllers\RecruiterC->YourJobs()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->ApplicationView('1011', '1006')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:24:01 --> Undefined property: App\Controllers\RecruiterC::$input
+in APPPATH\Controllers\RecruiterC.php on line 50.
+ 1 APPPATH\Controllers\RecruiterC.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\RecruiterC::$input', 'APPPATH\\Controllers\\RecruiterC.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->updateStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:27:42 --> Undefined property: App\Controllers\RecruiterC::$db
+in APPPATH\Controllers\RecruiterC.php on line 54.
+ 1 APPPATH\Controllers\RecruiterC.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\RecruiterC::$db', 'APPPATH\\Controllers\\RecruiterC.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->updateStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:29:07 --> Undefined property: App\Controllers\RecruiterC::$load
+in APPPATH\Controllers\RecruiterC.php on line 54.
+ 1 APPPATH\Controllers\RecruiterC.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\RecruiterC::$load', 'APPPATH\\Controllers\\RecruiterC.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->updateStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 12:32:55 --> mysqli_sql_exception: Table 'myjobportal.applications' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `applica...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `applica...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `applica...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `applica...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(57): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->updateStatus()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 12:32:55 --> Undefined property: App\Controllers\RecruiterC::$db
+in APPPATH\Controllers\RecruiterC.php on line 58.
+ 1 APPPATH\Controllers\RecruiterC.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\RecruiterC::$db', 'APPPATH\\Controllers\\RecruiterC.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->updateStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 12:33:36 --> mysqli_sql_exception: Table 'myjobportal.applications' doesn't exist in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `applica...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `applica...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `applica...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `applica...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(58): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->updateStatus()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 12:33:37 --> The route for "http://localhost/AppView/1006/1006" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/AppView/1006/1006')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\RecruiterC.php(67): redirect('http://localhost/AppView/1006/1006')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->updateStatus()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:34:37 --> The route for "http://localhost/AppView/1006/1006" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/AppView/1006/1006')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\RecruiterC.php(67): redirect('http://localhost/AppView/1006/1006')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->updateStatus()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:35:05 --> The route for "http://localhost/AppView/1006/1006" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/AppView/1006/1006')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\RecruiterC.php(67): redirect('http://localhost/AppView/1006/1006')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->updateStatus()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:37:37 --> The route for "http://localhost/AppView/1006/1006" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/AppView/1006/1006')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\RecruiterC.php(67): redirect('http://localhost/AppView/1006/1006')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->updateStatus()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:51:42 --> Class "App\Controllers\JobModel" not found
+in APPPATH\Controllers\RecruiterC.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:53:15 --> Class "App\Controllers\Jobs" not found
+in APPPATH\Controllers\RecruiterC.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:53:53 --> Class "App\Controllers\ApplicationModel" not found
+in APPPATH\Controllers\RecruiterC.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:53:54 --> Class "App\Controllers\ApplicationModel" not found
+in APPPATH\Controllers\RecruiterC.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:53:55 --> Class "App\Controllers\ApplicationModel" not found
+in APPPATH\Controllers\RecruiterC.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:53:55 --> Class "App\Controllers\ApplicationModel" not found
+in APPPATH\Controllers\RecruiterC.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:53:56 --> Class "App\Controllers\ApplicationModel" not found
+in APPPATH\Controllers\RecruiterC.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:53:56 --> Class "App\Controllers\ApplicationModel" not found
+in APPPATH\Controllers\RecruiterC.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:53:56 --> Class "App\Controllers\ApplicationModel" not found
+in APPPATH\Controllers\RecruiterC.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:53:56 --> Class "App\Controllers\ApplicationModel" not found
+in APPPATH\Controllers\RecruiterC.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:53:56 --> Class "App\Controllers\ApplicationModel" not found
+in APPPATH\Controllers\RecruiterC.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:55:12 --> Undefined variable $totalApplicants
+in APPPATH\Views\Recruiters\Dashboard.php on line 57.
+ 1 APPPATH\Views\Recruiters\Dashboard.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalApplicants', 'APPPATH\\Views\\Recruiters\\Dashboard.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Dashboard', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(28): view('Recruiters/Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:56:15 --> syntax error, unexpected token ";"
+in APPPATH\Views\Recruiters\Dashboard.php on line 65.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Dashboard', [], true)
+ 3 APPPATH\Controllers\RecruiterC.php(28): view('Recruiters/Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:56:16 --> syntax error, unexpected token ";"
+in APPPATH\Views\Recruiters\Dashboard.php on line 65.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Dashboard', [], true)
+ 3 APPPATH\Controllers\RecruiterC.php(28): view('Recruiters/Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:27:15 --> Undefined variable $totalJobPostings
+in APPPATH\Views\Recruiters\Dashboard.php on line 53.
+ 1 APPPATH\Views\Recruiters\Dashboard.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalJobPostings', 'APPPATH\\Views\\Recruiters\\Dashboard.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(124): view('Recruiters/Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:27:55 --> Undefined variable $activeJobPostings
+in APPPATH\Views\Recruiters\Dashboard.php on line 61.
+ 1 APPPATH\Views\Recruiters\Dashboard.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activeJobPostings', 'APPPATH\\Views\\Recruiters\\Dashboard.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(124): view('Recruiters/Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:49:44 --> Invalid file: Recruites/Settingz.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Recruites/Settingz.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruites/Settingz', [], true)
+ 3 APPPATH\Controllers\RecruiterC.php(157): view('Recruites/Settingz')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->RAccountSettings()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:50:01 --> Undefined array key "gender"
+in APPPATH\Views\Recruiters\Settingz.php on line 106.
+ 1 APPPATH\Views\Recruiters\Settingz.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gender"', 'APPPATH\\Views\\Recruiters\\Settingz.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Settingz', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(157): view('Recruiters/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->RAccountSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:50:02 --> Undefined array key "gender"
+in APPPATH\Views\Recruiters\Settingz.php on line 106.
+ 1 APPPATH\Views\Recruiters\Settingz.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gender"', 'APPPATH\\Views\\Recruiters\\Settingz.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Settingz', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(157): view('Recruiters/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->RAccountSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:50:03 --> Undefined array key "gender"
+in APPPATH\Views\Recruiters\Settingz.php on line 106.
+ 1 APPPATH\Views\Recruiters\Settingz.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gender"', 'APPPATH\\Views\\Recruiters\\Settingz.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Settingz', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(157): view('Recruiters/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->RAccountSettings()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:59:18 --> Undefined array key "gender"
+in APPPATH\Controllers\ApplicantC.php on line 92.
+ 1 APPPATH\Controllers\ApplicantC.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gender"', 'APPPATH\\Controllers\\ApplicantC.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:04:41 --> Undefined array key "gender"
+in APPPATH\Controllers\ApplicantC.php on line 91.
+ 1 APPPATH\Controllers\ApplicantC.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gender"', 'APPPATH\\Controllers\\ApplicantC.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:05:12 --> Undefined array key "gender"
+in APPPATH\Controllers\ApplicantC.php on line 91.
+ 1 APPPATH\Controllers\ApplicantC.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gender"', 'APPPATH\\Controllers\\ApplicantC.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->updateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 12:05:51 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `recruit...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `recruit...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `recruit...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `recruit...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(176): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->RupdateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 12:05:59 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `recruit...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `recruit...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `recruit...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `recruit...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(176): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->RupdateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 12:09:02 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `recruit...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `recruit...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `recruit...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `recruit...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(176): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->RupdateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 12:09:13 --> Undefined array key "name"
+in APPPATH\Controllers\RecruiterC.php on line 161.
+ 1 APPPATH\Controllers\RecruiterC.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Controllers\\RecruiterC.php', 161)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->RupdateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:11:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\RecruiterC.php on line 167.
+ 1 APPPATH\Controllers\RecruiterC.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\RecruiterC.php', 167)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->RupdateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:12:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\RecruiterC.php on line 167.
+ 1 APPPATH\Controllers\RecruiterC.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\RecruiterC.php', 167)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->RupdateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 12:12:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\RecruiterC.php on line 167.
+ 1 APPPATH\Controllers\RecruiterC.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\RecruiterC.php', 167)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->RupdateAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 12:12:41 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `recruit...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `recruit...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `recruit...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `recruit...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(176): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->RupdateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 12:14:11 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `recruit...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `recruit...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `recruit...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `recruit...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(176): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->RupdateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-22 12:18:45 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `recruit...', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `recruit...')
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `recruit...')
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `recruit...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\app\Controllers\RecruiterC.php(176): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\RecruiterC->RupdateAccount()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-22 11:37:27 --> Undefined array key "applicant"
+in APPPATH\Views\Applicants\SearchResults.php on line 15.
+ 1 APPPATH\Views\Applicants\SearchResults.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "applicant"', 'APPPATH\\Views\\Applicants\\SearchResults.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\SearchResults.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/SearchResults', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(217): view('Applicants/SearchResults', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->searchJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:41:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ApplicantC.php on line 16.
+ 1 APPPATH\Controllers\ApplicantC.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\ApplicantC.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 11:51:53 --> A non-numeric value encountered
+in APPPATH\Views\Applicants\Settingz.php on line 118.
+ 1 APPPATH\Views\Applicants\Settingz.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Views\\Applicants\\Settingz.php', 118)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/Settingz', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(272): view('Applicants/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->changePassword()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

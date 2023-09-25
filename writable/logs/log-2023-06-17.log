@@ -1,0 +1,55 @@
+CRITICAL - 2023-06-17 00:00:11 --> Undefined variable $jobs
+in APPPATH\Views\Applicants\yourApplications.php on line 61.
+ 1 APPPATH\Views\Applicants\yourApplications.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jobs', 'APPPATH\\Views\\Applicants\\yourApplications.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\yourApplications.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/yourApplications', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(80): view('Applicants/yourApplications', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->yourApplications()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:00:33 --> Undefined property: stdClass::$company_name
+in APPPATH\Views\Applicants\SearchResults.php on line 66.
+ 1 APPPATH\Views\Applicants\SearchResults.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$company_name', 'APPPATH\\Views\\Applicants\\SearchResults.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\SearchResults.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/SearchResults', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(68): view('Applicants/SearchResults', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:00:49 --> Undefined property: stdClass::$company_name
+in APPPATH\Views\Applicants\SearchResults.php on line 66.
+ 1 APPPATH\Views\Applicants\SearchResults.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$company_name', 'APPPATH\\Views\\Applicants\\SearchResults.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\SearchResults.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/SearchResults', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(68): view('Applicants/SearchResults', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:01:04 --> Undefined property: stdClass::$company_name
+in APPPATH\Views\Applicants\SearchResults.php on line 66.
+ 1 APPPATH\Views\Applicants\SearchResults.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$company_name', 'APPPATH\\Views\\Applicants\\SearchResults.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\SearchResults.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/SearchResults', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(68): view('Applicants/SearchResults', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 00:01:21 --> Undefined property: stdClass::$company_name
+in APPPATH\Views\Applicants\SearchResults.php on line 66.
+ 1 APPPATH\Views\Applicants\SearchResults.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$company_name', 'APPPATH\\Views\\Applicants\\SearchResults.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\SearchResults.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/SearchResults', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(68): view('Applicants/SearchResults', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,314 @@
+CRITICAL - 2023-06-11 01:22:16 --> Undefined property: App\Controllers\Home::$Recruiter
+in APPPATH\Controllers\Home.php on line 77.
+ 1 APPPATH\Controllers\Home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$Recruiter', 'APPPATH\\Controllers\\Home.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 01:23:16 --> Undefined property: App\Controllers\Home::$Recruiter
+in APPPATH\Controllers\Home.php on line 103.
+ 1 APPPATH\Controllers\Home.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$Recruiter', 'APPPATH\\Controllers\\Home.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 02:28:07 --> Undefined constant "App\Controllers\lolllllllllll"
+in APPPATH\Controllers\Home.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 02:31:17 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 02:31:34 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 02:46:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 81.
+ 1 APPPATH\Controllers\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 02:47:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 81.
+ 1 APPPATH\Controllers\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 02:20:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 81.
+ 1 APPPATH\Controllers\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 02:25:35 --> Class "App\Models\Admin" not found
+in APPPATH\Controllers\Home.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 02:26:32 --> Class "App\Models\Admin" not found
+in APPPATH\Controllers\Home.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 02:27:30 --> Class "App\Models\Admin" not found
+in APPPATH\Controllers\Home.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 02:29:13 --> Invalid file: Applicants/ApplicantDashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Applicants/ApplicantDashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/ApplicantDashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(89): view('Applicants/ApplicantDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:04:24 --> Undefined variable $admins
+in APPPATH\Views\Admin\Dashboard.php on line 38.
+ 1 APPPATH\Views\Admin\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admins', 'APPPATH\\Views\\Admin\\Dashboard.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Admin/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:04:44 --> Undefined variable $admin
+in APPPATH\Views\Admin\Dashboard.php on line 38.
+ 1 APPPATH\Views\Admin\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'APPPATH\\Views\\Admin\\Dashboard.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Admin/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:05:18 --> Undefined variable $admin
+in APPPATH\Views\Admin\Dashboard.php on line 38.
+ 1 APPPATH\Views\Admin\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'APPPATH\\Views\\Admin\\Dashboard.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Admin/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:05:45 --> Undefined variable $admin1
+in APPPATH\Views\Admin\Dashboard.php on line 38.
+ 1 APPPATH\Views\Admin\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin1', 'APPPATH\\Views\\Admin\\Dashboard.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Admin/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:09:02 --> Undefined variable $data
+in APPPATH\Views\Admin\Dashboard.php on line 26.
+ 1 APPPATH\Views\Admin\Dashboard.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Admin\\Dashboard.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Admin/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:09:17 --> Undefined variable $data
+in APPPATH\Views\Admin\Dashboard.php on line 26.
+ 1 APPPATH\Views\Admin\Dashboard.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Admin\\Dashboard.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Admin/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:09:41 --> Undefined variable $data
+in APPPATH\Views\Admin\Dashboard.php on line 26.
+ 1 APPPATH\Views\Admin\Dashboard.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Admin\\Dashboard.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Admin/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:11:14 --> Undefined variable $data
+in APPPATH\Views\Admin\Dashboard.php on line 26.
+ 1 APPPATH\Views\Admin\Dashboard.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Admin\\Dashboard.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Admin/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:13:47 --> Undefined variable $data
+in APPPATH\Views\Admin\Dashboard.php on line 26.
+ 1 APPPATH\Views\Admin\Dashboard.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Admin\\Dashboard.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Admin/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:15:54 --> Undefined variable $data
+in APPPATH\Views\Admin\Dashboard.php on line 26.
+ 1 APPPATH\Views\Admin\Dashboard.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Admin\\Dashboard.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('Admin/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-11 02:28:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'myjobportal', 3306, '', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MyJobPortal\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\MyJobPortal\app\Controllers\Home.php(79): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+#8 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MyJobPortal\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MyJobPortal\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\MyJobPortal\app\Controllers\Home.php(79): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-11 02:28:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Home.php(79): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-11 02:29:25 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=12212 in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 171)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'myjobportal', 3306, '', 0)
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\MyJobPortal\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\MyJobPortal\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\MyJobPortal\app\Controllers\Home.php(79): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+#9 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'myjobportal', 3306, '', 0)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MyJobPortal\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MyJobPortal\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\MyJobPortal\app\Controllers\Home.php(79): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+#8 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MyJobPortal\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MyJobPortal\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\MyJobPortal\app\Controllers\Home.php(79): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+#7 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-11 02:29:25 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Home.php(79): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:11:40 --> Undefined variable $totalUsers
+in APPPATH\Views\Admin\Dashboard.php on line 103.
+ 1 APPPATH\Views\Admin\Dashboard.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalUsers', 'APPPATH\\Views\\Admin\\Dashboard.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('Admin/Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 03:02:27 --> syntax error, unexpected double-quoted string "  Recruiters = ", expecting "," or ";"
+in APPPATH\Views\Admin\Dashboard.php on line 145.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(94): view('Admin/Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->LoginVerify()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

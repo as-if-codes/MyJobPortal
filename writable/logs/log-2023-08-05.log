@@ -1,0 +1,23 @@
+ERROR - 2023-08-05 02:31:32 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`myjobportal`.`application`, CONSTRAINT `application_ibfk_1` FOREIGN KEY (`job_post_id`) REFERENCES `job_post` (`job_post_id`)) in D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\MyJobPortal\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `jo...', 0)
+#1 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `jo...')
+#2 D:\xampp\htdocs\MyJobPortal\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `jo...')
+#3 D:\xampp\htdocs\MyJobPortal\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `jo...', Array, false)
+#4 D:\xampp\htdocs\MyJobPortal\app\Controllers\AdminC.php(125): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(927): App\Controllers\AdminC->AdeleteJob()
+#6 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+#7 D:\xampp\htdocs\MyJobPortal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\MyJobPortal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-05 02:29:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\Recruiters\Postjob.php on line 65.
+ 1 APPPATH\Views\Recruiters\Postjob.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Recruiters\\Postjob.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Recruiters\\Postjob.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Recruiters/Postjob', [], true)
+ 5 APPPATH\Controllers\RecruiterC.php(37): view('Recruiters/Postjob')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->jobpost()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

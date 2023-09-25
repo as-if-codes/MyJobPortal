@@ -1,0 +1,141 @@
+CRITICAL - 2023-08-08 02:06:21 --> Class "App\Controllers\Applicant" not found
+in APPPATH\Controllers\RecruiterC.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\RecruiterC->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterC))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:12:39 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 5.
+ 1 APPPATH\Views\Admin\job_list.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(69): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:12:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\Settingz.php on line 99.
+ 1 APPPATH\Views\Admin\Settingz.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\Settingz.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\Settingz.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/Settingz', [], true)
+ 5 APPPATH\Controllers\AdminC.php(74): view('Admin/Settingz')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->SettingsAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:12:46 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 5.
+ 1 APPPATH\Views\Admin\job_list.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(69): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 02:24:04 --> Undefined array key "admin"
+in APPPATH\Views\Admin\job_list.php on line 5.
+ 1 APPPATH\Views\Admin\job_list.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admin"', 'APPPATH\\Views\\Admin\\job_list.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\job_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/job_list', [], true)
+ 5 APPPATH\Controllers\AdminC.php(69): view('Admin/job_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminC->jobList()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 11:39:11 --> Undefined variable $data
+in APPPATH\Views\BrowseJobs.php on line 29.
+ 1 APPPATH\Views\BrowseJobs.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\BrowseJobs.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\BrowseJobs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/BrowseJobs', [], true)
+ 5 APPPATH\Controllers\Home.php(207): view('/BrowseJobs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->BrowseJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 11:39:39 --> Undefined variable $data
+in APPPATH\Views\BrowseJobs.php on line 29.
+ 1 APPPATH\Views\BrowseJobs.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\BrowseJobs.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\BrowseJobs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('BrowseJobs', [], true)
+ 5 APPPATH\Controllers\Home.php(207): view('BrowseJobs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->BrowseJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 11:40:11 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 206.
+ 1 APPPATH\Controllers\Home.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 206)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->BrowseJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 11:42:56 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 206.
+ 1 APPPATH\Controllers\Home.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Home.php', 206)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->BrowseJobs()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 11:43:23 --> Undefined array key "applicant"
+in APPPATH\Views\Applicants\SearchResults.php on line 15.
+ 1 APPPATH\Views\Applicants\SearchResults.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "applicant"', 'APPPATH\\Views\\Applicants\\SearchResults.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\SearchResults.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/SearchResults', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(191): view('Applicants/SearchResults', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 11:43:56 --> Undefined array key "applicant"
+in APPPATH\Views\Applicants\SearchResults.php on line 15.
+ 1 APPPATH\Views\Applicants\SearchResults.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "applicant"', 'APPPATH\\Views\\Applicants\\SearchResults.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\SearchResults.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/SearchResults', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(191): view('Applicants/SearchResults', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 11:44:30 --> Undefined array key "applicant"
+in APPPATH\Views\Applicants\SearchResults.php on line 15.
+ 1 APPPATH\Views\Applicants\SearchResults.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "applicant"', 'APPPATH\\Views\\Applicants\\SearchResults.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\SearchResults.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/SearchResults', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(191): view('Applicants/SearchResults', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->SearchingJobs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 11:51:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\Applicants\jobView.php on line 65.
+ 1 APPPATH\Views\Applicants\jobView.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Applicants\\jobView.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\jobView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/jobView', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(158): view('Applicants/jobView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->applyJob('1006')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-08 12:07:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\Applicants\jobView.php on line 65.
+ 1 APPPATH\Views\Applicants\jobView.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Applicants\\jobView.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Applicants\\jobView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Applicants/jobView', [], true)
+ 5 APPPATH\Controllers\ApplicantC.php(158): view('Applicants/jobView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ApplicantC->applyJob('1015')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantC))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
