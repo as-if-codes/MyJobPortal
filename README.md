@@ -52,8 +52,7 @@ To run this application, you will need the following:
 - Run the application using a PHP development server or a web server like Apache.
 
 ## Screenshots
-![Home Page](https://github.com/as-if-codes/MyJobPortal/x-Screenshot/Screenshot_1.jpg)  
-
+![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_1.jpg)  
 ## Contributors
 
 - Asif Sayyed
