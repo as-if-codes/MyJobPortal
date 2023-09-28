@@ -1,6 +1,6 @@
 # Job Portal Web Application
 
-This is a web application designed for job seekers and recruiters to connect. It provides a platform for job seekers to search for job opportunities and submit applications, while recruiters can post job listings.
+This is a web application designed for job seekers and recruiters to connect. It provides a platform for job seekers to search for job opportunities and submit applications, while recruiters can post job listings while admin will have overall control on the system.
 
 ## Technologies Used
 
@@ -25,19 +25,12 @@ This is a web application designed for job seekers and recruiters to connect. It
 ### Job Posting and Management
 
 - Recruiters can post job vacancies and manage their listings.
-- User-friendly admin panel for recruiters to manage job postings.
+- User-friendly dashboard for recruiters to manage job postings.
+- Generates report for admin of the system.
 
 ### Profile Management
 
 - Users can update their profiles, including personal information, contact details, and resumes.
-
-### Advanced Search
-
-- Advanced search functionality with filters to narrow down job listings.
-
-### Notifications
-
-- Real-time email notifications for job applicants and updates on job applications.
 
 ## Setup
 
@@ -47,12 +40,24 @@ To run this application, you will need the following:
 - MySQL
 - Composer (for CodeIgniter dependencies)
 - Clone this repository or download the ZIP file and extract it.
-- Import the database schema (provided separately).
-- Configure the database connection in CodeIgniter's configuration files.
+- Import the database schema (mail at asifsayyed0502@gmail.com for DB schema).
 - Run the application using a PHP development server or a web server like Apache.
 
 ## Screenshots
+Home Page
 ![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_1.jpg)  
+Search Jobs
+![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_2.jpg)  
+Applicant Registration
+![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_3.jpg)  
+Applicant Dashboard
+![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_4.jpg)  
+
+![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_5.jpg)  
+Reports
+![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_6.jpg)  
+![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_6.jpg)  
+
 ## Contributors
 
 - Asif Sayyed
