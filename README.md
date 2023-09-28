@@ -1,56 +1,62 @@
-# CodeIgniter 4 Framework
+# Job Portal Web Application
 
-## What is CodeIgniter?
+This is a web application designed for job seekers and recruiters to connect. It provides a platform for job seekers to search for job opportunities and submit applications, while recruiters can post job listings.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+## Technologies Used
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+- PHP (CodeIgniter Framework)
+- MySQL
+- HTML
+- CSS
+- JavaScript
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+## Features
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+### User Registration and Login
 
+- Job seekers and recruiters can register and log in separately.
+- Secure authentication system.
 
-## Important Change with index.php
+### Job Search and Application
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+- Job seekers can search for job opportunities based on criteria like job title and location.
+- They can submit their job applications through the system.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+### Job Posting and Management
 
-**Please** read the user guide for a better explanation of how CI4 works!
+- Recruiters can post job vacancies and manage their listings.
+- User-friendly admin panel for recruiters to manage job postings.
 
-## Repository Management
+### Profile Management
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+- Users can update their profiles, including personal information, contact details, and resumes.
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+### Advanced Search
 
-## Contributing
+- Advanced search functionality with filters to narrow down job listings.
 
-We welcome contributions from the community.
+### Notifications
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+- Real-time email notifications for job applicants and updates on job applications.
 
-## Server Requirements
+## Setup
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+To run this application, you will need the following:
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+- PHP (>=7.0)
+- MySQL
+- Composer (for CodeIgniter dependencies)
+- Clone this repository or download the ZIP file and extract it.
+- Import the database schema (provided separately).
+- Configure the database connection in CodeIgniter's configuration files.
+- Run the application using a PHP development server or a web server like Apache.
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+## Screenshots
+![Home Page](https://github.com/as-if-codes/MyJobPortal/x-Screenshot/Screenshot_1.jpg)  
 
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+## Contributors
+
+- Asif Sayyed
+- asifsayyed0502@gmail.com
+
+For any assistance or inquiries, please contact - asifsayyed0502@gmail.com.
