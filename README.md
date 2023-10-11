@@ -47,15 +47,15 @@ To run this application, you will need the following:
 Home Page
 ![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_1.jpg)  
 Search Jobs
-![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_2.jpg)  
+![Search Jobs]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_2.jpg)  
 Applicant Registration
-![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_3.jpg)  
+![Applicant Registration]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_3.jpg)  
 Applicant Dashboard
-![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_4.jpg)  
+![Applicant Dashboard]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_4.jpg)  
 
-![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_5.jpg)  
+![Applicant Dashboard]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_5.jpg)  
 Reports
-![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_6.jpg)  
+![Reports]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_6.jpg)  
 ![Home Page]( https://github.com/as-if-codes/MyJobPortal/blob/master/x-Screenshot/Screenshot_6.jpg)  
 
 ## Contributors
